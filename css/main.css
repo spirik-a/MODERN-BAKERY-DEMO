@@ -1,0 +1,119 @@
+:root {
+  --brandGreen: #819b57;
+  --primaryLight: #faf4ea;
+  --primaryDark: #31261a;
+}
+
+/* basic structure */
+
+body {
+  box-sizing: border-box;
+  /* height: 1000px; */
+  color: var(--primaryDark);
+}
+
+ul {
+  list-style-type: none;
+  /* display: flex;
+    justify-content: stretch; */
+}
+/* header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #819b57;
+} */
+
+/* header > nav > ul {
+  display: flex;
+    justify-content: stretch;
+ 
+  margin-left: 100px;
+
+} */
+
+ul > li {
+  margin-left: 10px;
+}
+
+/* nav >ul{
+    display: flex;
+    justify-content: stretch;
+
+} */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+}
+
+.advantahes {
+  /* display: flex;
+    justify-content: stretch; */
+  background-color: var(--brandGreen);
+  color: #faf4ea;
+}
+/* decoration */
+
+.link {
+  color: var(--primaryLight);
+}
+.link:hover {
+  color: var(--brandGreen);
+}
+
+.hero-title {
+  color: var(--primaryLight);
+}
+
+.hero-title .accent {
+  color: var(--brandGreen);
+}
+
+.accent {
+  color: var(--brandGreen);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.call-order {
+  background-color: var(--brandLightGreen);
+
+  width: 238px;
+  height: 59px;
+  border: solid var(--brandLightGreen);
+  border-radius: 8px;
+  color: #faf4ea;
+  cursor: pointer;
+}
+
+.call-order:hover {
+  background-color: transparent;
+  color: #465929;
+}
+
+/* .section-title {
+  color: var(--primaryDark);
+} */
+
+/* TESTING */
+
+/* 
+ [type] {
+ background-color: red;
+  border: 5px solid violet;
+  width: 100px;
+  height: 100px;
+} */
+/* .main-section > h1 {
+  background-color: blueviolet;
+  color: red;
+  font-size: 18px;
+} */
+
+/* .call-order:active{
+  background-color: pink;
+}
+.call-order:focus{
+  background-color: red;
+} */
